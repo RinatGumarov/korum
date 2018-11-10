@@ -1,0 +1,26 @@
+
+(cl:in-package :asdf)
+
+(defsystem "ethereum_common-srv"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :ethereum_common-msg
+)
+  :components ((:file "_package")
+    (:file "AccountBalance" :depends-on ("_package_AccountBalance"))
+    (:file "_package_AccountBalance" :depends-on ("_package"))
+    (:file "AccountToAddressAllowance" :depends-on ("_package_AccountToAddressAllowance"))
+    (:file "_package_AccountToAddressAllowance" :depends-on ("_package"))
+    (:file "Accounts" :depends-on ("_package_Accounts"))
+    (:file "_package_Accounts" :depends-on ("_package"))
+    (:file "Allowance" :depends-on ("_package_Allowance"))
+    (:file "_package_Allowance" :depends-on ("_package"))
+    (:file "Approve" :depends-on ("_package_Approve"))
+    (:file "_package_Approve" :depends-on ("_package"))
+    (:file "Balance" :depends-on ("_package_Balance"))
+    (:file "_package_Balance" :depends-on ("_package"))
+    (:file "BlockNumber" :depends-on ("_package_BlockNumber"))
+    (:file "_package_BlockNumber" :depends-on ("_package"))
+    (:file "Transfer" :depends-on ("_package_Transfer"))
+    (:file "_package_Transfer" :depends-on ("_package"))
+    (:file "TransferFrom" :depends-on ("_package_TransferFrom"))
+    (:file "_package_TransferFrom" :depends-on ("_package"))
+  ))

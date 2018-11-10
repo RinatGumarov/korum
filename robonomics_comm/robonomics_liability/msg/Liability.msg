@@ -1,0 +1,10 @@
+string address
+string model
+string objective
+string result
+string promisee
+string promisor
+string token
+uint64 cost
+string validator
+uint64 validatorFee

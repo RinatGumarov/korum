@@ -1,0 +1,6 @@
+set(ethereum_common_SETUP_PY_VERSION "0.2.0")
+set(ethereum_common_SETUP_PY_SCRIPTS "")
+set(ethereum_common_SETUP_PY_PACKAGES "ethereum_common")
+set(ethereum_common_SETUP_PY_PACKAGE_DIRS "src/ethereum_common")
+set(ethereum_common_SETUP_PY_MODULES "")
+set(ethereum_common_SETUP_PY_MODULE_DIRS "")

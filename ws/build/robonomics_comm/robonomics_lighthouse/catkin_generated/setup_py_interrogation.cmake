@@ -1,0 +1,6 @@
+set(robonomics_lighthouse_SETUP_PY_VERSION "0.6.0")
+set(robonomics_lighthouse_SETUP_PY_SCRIPTS "")
+set(robonomics_lighthouse_SETUP_PY_PACKAGES "robonomics_lighthouse")
+set(robonomics_lighthouse_SETUP_PY_PACKAGE_DIRS "src/robonomics_lighthouse")
+set(robonomics_lighthouse_SETUP_PY_MODULES "")
+set(robonomics_lighthouse_SETUP_PY_MODULE_DIRS "")

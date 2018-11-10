@@ -1,2 +1,0 @@
-robonomics_comm/ethereum_common:robonomics_comm/ipfs_common:robonomics_comm/robonomics_comm:robonomics_comm/robonomics_control:robonomics_comm/robonomics_liability:robonomics_comm/robonomics_lighthouse:robonomics_comm/robonomics_msgs
--DCATKIN_DEVEL_PREFIX=/home/parallels/energyhack_2018/ws/devel -DCMAKE_INSTALL_PREFIX=/home/parallels/energyhack_2018/ws/install -G Unix Makefiles

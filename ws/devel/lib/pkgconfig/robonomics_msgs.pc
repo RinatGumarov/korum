@@ -1,8 +1,0 @@
-prefix=/home/parallels/energyhack_2018/ws/devel
-
-Name: robonomics_msgs
-Description: Description of robonomics_msgs
-Version: 0.0.1
-Cflags: -I/home/parallels/energyhack_2018/ws/devel/include
-Libs: -L/home/parallels/energyhack_2018/ws/devel/lib 
-Requires: 

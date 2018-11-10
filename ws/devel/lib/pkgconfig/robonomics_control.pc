@@ -1,8 +1,0 @@
-prefix=/home/parallels/energyhack_2018/ws/devel
-
-Name: robonomics_control
-Description: Description of robonomics_control
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/parallels/energyhack_2018/ws/devel/lib 
-Requires: 
